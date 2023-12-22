@@ -9,9 +9,9 @@ body{
     display: flex;
     justify-content: center ;
     background-color: #e0e0e0;
-    width: 400px;
-    height: 600px;
-    margin: 75px 0px 10px 600px;
+    width: 40%;
+    height: 100vh;
+    margin: 5% 0% 10% 30%;
     border-radius: 20px;
     box-shadow: 20px 20px 15px black , -20px -20px 30px white;
 }
@@ -21,8 +21,8 @@ body{
     position: relative;
 }
 .option{
-    width: 35px;
-    height: 35px;
+    width: 50%;
+    height: 5%;
     border-radius: 5px;
     background: #e0e0e0;
     box-shadow:  3px 3px 9px #825D35,
@@ -32,8 +32,8 @@ body{
 
 }
 .search{
-    width: 40px;
-    height: 35px;
+    width: 50%;
+    height: 5%;
     border-radius: 5px;
     background-color: #e0e0e0;
     box-shadow: 3px 3px 9px #825D35, -3px -3px 30px white;
@@ -47,15 +47,15 @@ body{
 }
 
 .taylor{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 30%;
     margin-top: 200px;
     position: absolute;
-    left: 700px;
+    left: 40%;
     top:10px;
     background-color: #e0e0e0;
     box-shadow: 3px 3px 9px #825D35,-10px -10px 25px white;
-    border-radius: 100px;
+    border-radius: 100%;
     border: 2px  #825D35;
     
 
@@ -110,8 +110,8 @@ box-shadow:   5px 5px 5px #696969,
 }
 .button{
     position: absolute;
-    
-    left: 775px;
+    bottom: 10%;
+    left: 47%;
     display: flex;
     justify-content: center;
 }

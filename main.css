@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F7EFE8;
+}
+.main{
+    display: flex;
+    justify-content: center ;
+    background-color: #e0e0e0;
+    width: 400px;
+    height: 600px;
+    margin: 75px 0px 10px 600px;
+    border-radius: 20px;
+    box-shadow: 20px 20px 15px black , -20px -20px 30px white;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.option{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    background: #e0e0e0;
+    box-shadow:  3px 3px 9px #825D35,
+             -3px -3px 30px #ffffff;
+    position: absolute;
+    margin:40px 200px 0px 0px;
+
+}
+.search{
+    width: 40px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #e0e0e0;
+    box-shadow: 3px 3px 9px #825D35, -3px -3px 30px white;
+    position: absolute;
+    margin: 40px 0px 0px 200px;
+}
+.container1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin: 49px 0px 0px 0px;
+}
+
+.taylor{
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    position: absolute;
+    left: 700px;
+    top:10px;
+    background-color: #e0e0e0;
+    box-shadow: 3px 3px 9px #825D35,-10px -10px 25px white;
+    border-radius: 100px;
+    border: 2px  #825D35;
+    
+
+}
+.container2{
+    position: absolute;
+    top:420px;
+    display: block;
+    justify-content: center;
+    
+}
+.text{
+    margin: 0px 0px 5px 5px;
+    font-size: 30px;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: 800;
+}
+.name{
+    margin: 0px 0px 5px 15px;
+    font-size: x-small;
+}
+.bar{
+    width: 200px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow:   5px 5px 5px #696969,
+              -5px -5px 30px #ffffff;
+}
+.progress{
+    position: absolute;
+    top: 500px;
+}
+.time{
+    width: 100px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50px;
+background: #1c1a1a;
+box-shadow:   5px 5px 5px #696969,
+              -5px -5px 30px #ffffff;
+
+}
+.next , .prev , .pause{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background: #e0e0e0;
+    box-shadow:  inset 5px 5px 3px #696969 , inset -5px -5px 30px white;
+    
+}
+.button{
+    position: absolute;
+    bottom: 227px;
+    left: 775px;
+    display: flex;
+    justify-content: center;
+}
+.prev{
+    position: absolute;
+    right: 60px;
+    top: 10px;
+
+}
+.pause{
+    position: absolute;
+}
+.next{
+    position: absolute;
+    left: 100px;
+    top: 10px;
+}

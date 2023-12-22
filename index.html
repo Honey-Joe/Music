@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap" rel="stylesheet">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@500&display=swap');
+  </style>
+</head>
+<body>
+    <div class="main">
+        <div class="container1">
+            <img src="image/option.png" alt="option" class="option">
+            <p>Now Playing</p>
+            <img src="image/Search.png" alt="Search" class="search">
+        </div>
+        <div>
+            <img src="image/Taylor_Swift_-_Lover.png" alt="coverimage" class="taylor" >
+        </div>
+        <div class="container2">
+            <p class="text">Lover</p>
+            <p class="name">Taylor Swift</p>
+        </div>
+        <div class="progress">
+            <div class="bar">
+                <div class="time"></div>
+            </div>
+            </div>
+        </div>
+        <div class="button">
+            <div>
+                <a href="#"><img src="image/previous.png" alt="" class="prev"></a>
+                
+            </div>
+            <div>
+                <button onclick="playaudio()" ondblclick="pauseaudio()" type="button"><img src="image/video-pause-button.png" alt="" class="pause"></button>
+
+            </div>
+            <div>
+                <a href="#"><img src="image/1932871-removebg-preview.png" alt="" class="next"></a>
+                
+            </div>
+        </div>
+       
+
+    </div>
+    <audio id="hello"src="image/Lover-Taylor-Swift(PagalWorld).mp3"></audio>
+    <script>
+        var x=document.getElementById("hello")
+        function playaudio()
+        {
+            x.play()
+        }
+        function pauseaudio()
+        {
+            x.pause()
+        }
+
+    </script>
+</body>
+</html>

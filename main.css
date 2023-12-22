@@ -28,7 +28,7 @@ body{
     box-shadow:  3px 3px 9px #825D35,
              -3px -3px 30px #ffffff;
     position: absolute;
-    margin:40px 200px 0px 0px;
+    margin:40px 300px 0px 0px;
 
 }
 .search{
@@ -38,7 +38,7 @@ body{
     background-color: #e0e0e0;
     box-shadow: 3px 3px 9px #825D35, -3px -3px 30px white;
     position: absolute;
-    margin: 40px 0px 0px 200px;
+    margin: 40px 0px 0px 300px;
 }
 .container1 p{
     font-family: Arial, Helvetica, sans-serif;

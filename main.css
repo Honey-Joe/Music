@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center ;
     background-color: #e0e0e0;
-    max-width: 40%;
+    width: 40%;
     height: 100vh;
     margin: 5% 0% 10% 30%;
     border-radius: 20px;
@@ -132,10 +132,14 @@ box-shadow:   5px 5px 5px #696969,
 @media screen and (max-width:350px){
 
     .main{
-    max-width: 90%;
-    margin: 0% 3%;
-    box-shadow: 5px 5px 10px black , -5px -5px 15px white;
+    display: flex;
+    justify-content: center ;
+    background-color: #e0e0e0;
+    width: 80%;
     height: 80vh;
+    margin: 5% 0% 10% 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black , -10px -10px 15px white;
 
 }
 .container1{

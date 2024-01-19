@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center ;
     background-color: #e0e0e0;
-    width: 40%;
+    max-width: 40%;
     height: 100vh;
     margin: 5% 0% 10% 30%;
     border-radius: 20px;
@@ -132,14 +132,8 @@ box-shadow:   5px 5px 5px #696969,
 @media screen and (max-width:350px){
 
     .main{
-    display: flex;
-    justify-content: center ;
-    background-color: #e0e0e0;
-    width: 80%;
-    height: 80vh;
-    margin: 5% 0% 10% 10%;
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px black , -10px -10px 15px white;
+    max-width: 90%;
+    margin: 0% 3%;
 
 }
 .container1{
@@ -213,8 +207,9 @@ box-shadow:   5px 5px 5px #696969,
 .next , .prev , .pause{
     width: 40px;
     height: 40px;
+    scale: 0.9;
     border-radius: 100px;
-    background: #e0e0e0;
+    /* background:; */
     box-shadow:  inset 5px 5px 3px #696969 , inset -5px -5px 30px white;
     
 }
@@ -229,7 +224,7 @@ box-shadow:   5px 5px 5px #696969,
 }
 .progress{
     position: absolute;
-    top: 420px;
+    top: 370px;
 }
 .time{
     width: 100px;

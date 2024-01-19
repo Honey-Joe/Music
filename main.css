@@ -134,6 +134,8 @@ box-shadow:   5px 5px 5px #696969,
     .main{
     max-width: 90%;
     margin: 0% 3%;
+    box-shadow: 5px 5px 10px black , -5px -5px 15px white;
+    height: 80vh;
 
 }
 .container1{
